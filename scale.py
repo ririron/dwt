@@ -16,7 +16,6 @@ def calcScalingCoef(f):
 
     return y
 
-'''
 
 t = np.linspace(-5, 5, 16) 
 f = np.sin(t)
@@ -36,4 +35,3 @@ plt.subplot(3, 1, 3)
 plt.scatter(t[0:-1:4], sk2)
 
 plt.show()
-'''
